@@ -21,3 +21,4 @@ In [Part 2 (notebook)](https://github.com/mpkocher/Functional-Programming-Techni
 
 If you're a OO wizard, a Data Scientist/Analysist, or a backend dev, this series can be useful to add another design approach in your toolbelt to designing APIs or programs. 
 
+[Originally posted here](https://mpkocher.github.io/2019/03/01/Functional-Programming-Techniques-In-Python-Series/)
