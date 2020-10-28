@@ -1,7 +1,9 @@
 # Functional-Programming-Techniques-In-Python
 
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/mpkocher/Functional-Programming-Techniques-In-Python/main/logo.png" /></div>
+<p align="center">
+<img src="https://raw.githubusercontent.com/mpkocher/Functional-Programming-Techniques-In-Python/main/logo.png" />
+</p>
 
 ## Exploring functional centric design style and patterns in Python
 
