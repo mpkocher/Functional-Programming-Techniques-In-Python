@@ -48,9 +48,9 @@ In [Part 2 (notebook)](https://github.com/mpkocher/Functional-Programming-Techni
 
 [Part 3 (notebook)](https://github.com/mpkocher/Functional-Programming-Techniques-In-Python/blob/main/Functional-Python-Part-3.ipynb) follows similarly to spirit to Part 2. We build a commandline interface leveraging `argparse` from the Python standard library. Sometimes libraries such as argparse can have rough edges or friction points in the API that introduce duplication or design issues. Part 3 focuses on iterative building up an expressive commandline interface to a subparser commandline tool using closures and functions to smooth out the rough edges of `argparse.`. There's also examples of using a Strategy-ish pattern with type annotated functions to enable configuring logging as well as custom error handling. 
 
-[Part 4 (notebook)](https://github.com/mpkocher/Functional-Programming-Techniques-In-Python/blob/main/Functional-Python-Part-4.ipynb) concludes with some gotchas with regards to scope in closures, a brief example of decorators and a few suggestions for leverging function-centric designs in your APIs or applications. 
+[Part 4 (notebook)](https://github.com/mpkocher/Functional-Programming-Techniques-In-Python/blob/main/Functional-Python-Part-4.ipynb) concludes with some gotchas with regards to scope in closures, a brief example of decorators and a few suggestions for leveraging function-centric designs in your APIs or applications. 
 
-If you're a OO wizard, a Data Scientist/Analysist, or a backend dev, this series can be useful to add another design approach in your toolbelt to designing APIs or programs. 
+If you're a OO wizard, a Data Scientist/Analysist, or a backend dev, this series can be useful to expand your skillset and provide you with a new design approach to building APIs or applications.
 
 [Originally posted here](https://mpkocher.github.io/2019/03/01/Functional-Programming-Techniques-In-Python-Series/)
 
