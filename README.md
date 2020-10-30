@@ -1,9 +1,40 @@
-# Functional-Programming-Techniques-In-Python
-
+# Functional Programming Techniques In Python
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/mpkocher/Functional-Programming-Techniques-In-Python/main/logo.png" />
 </p>
+
+```python
+import functools
+
+def compose(*funcs):
+    """Functional composition [f, g, h] will be h(g(f(x))) """
+    def compose_two(f, g):
+        def c(x):
+            return f(g(x))
+        return c
+    return functools.reduce(compose_two, reversed(funcs))
+
+
+def adder(a: int, b: int) -> int:
+    return a + b
+
+
+def multiply(n: int):
+    def wrapper(m: int) -> int:
+        return m * n
+    return wrapper
+
+add_one = functools.partial(adder, 1)
+add_two = functools.partial(adder, 2)
+
+
+f = compose(add_one, multiply(3), add_two)
+assert f(7) == 26
+
+fp = compose(f, print)
+fp(7)
+```
 
 ## Exploring functional centric design style and patterns in Python
 
@@ -22,3 +53,12 @@ In [Part 2 (notebook)](https://github.com/mpkocher/Functional-Programming-Techni
 If you're a OO wizard, a Data Scientist/Analysist, or a backend dev, this series can be useful to add another design approach in your toolbelt to designing APIs or programs. 
 
 [Originally posted here](https://mpkocher.github.io/2019/03/01/Functional-Programming-Techniques-In-Python-Series/)
+
+
+## Other Resources
+
+- https://github.com/pytoolz/toolz
+- https://github.com/dry-python/returns
+- https://github.com/getify/Functional-Light-JS
+- https://github.com/sfermigier/awesome-functional-python
+
